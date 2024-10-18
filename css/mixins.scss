@@ -1,0 +1,17 @@
+@mixin largeDeviceView {
+    @media (max-width: 991px) {
+        @content
+    }
+}
+
+@mixin tabletView {
+    @media (max-width: 767px) {
+        @content
+    }
+}
+
+@mixin mobileView {
+    @media (max-width: 575px) {
+        @content
+    }
+}
